@@ -1,0 +1,19 @@
+#app_navigation_label{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-align: right;
+    justify-content: space-around;
+    font-size: larger;
+    color: var(--black-color);
+    @media screen and (min-width: 2000px) {
+        min-height: 216px;
+      }
+}
+#app_navigation_a{
+    min-height: 172.83px;
+    justify-content: space-around;
+}
+.container {
+    width: fit-content;
+}

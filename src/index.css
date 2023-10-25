@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --background-image: url("./assets/bgIMG.png");
+  --font-base: "Arial, sans-serif";
+
+  --primary-color: #edf2f8;
+  --secondary-color: #171c28;
+  
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+body.night {
+  --background-image: none;
+  --primary-color: #171c28;  
+  --secondary-color: #edf2f8; 
+  --gray-color: #a1a1a6; 
+  --black-color: #ffffff; 
+  --white-color: #030303; 
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
